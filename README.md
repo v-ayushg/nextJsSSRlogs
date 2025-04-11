@@ -1,3 +1,15 @@
+This is package.json to run this app on azure app service
+scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node_modules/next/dist/bin/next start",
+    "lint": "next lint"
+++ no need of startup command on app service
+
+- check inspect for client side logs
+- check logstream for server side logs
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

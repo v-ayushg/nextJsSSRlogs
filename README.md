@@ -1,3 +1,5 @@
+##commit for devOps
+
 ##This is package.json to run this app on azure app service
 scripts": {
     "dev": "next dev",
